@@ -7,11 +7,11 @@ export default function Actresses(props) {
                     <img src={actress.image} className="card-img-top" alt={actress.name} />
                     <div className="card-body">
                         <div className="card-text">
-                            <p><span className='text-primary'>Nome:</span> {actress.name}</p>
-                            <p><span className='text-primary'>Anno nascita:</span> {actress.birth_year}</p>
-                            <p><span className='text-primary'>Nazionalità:</span> {actress.nationality}</p>
-                            <p><span className='text-primary'>Biografia:</span> {actress.biography}</p>
-                            <p><span className='text-primary'>Riconoscimenti:</span> {actress.awards[0]} {actress.awards[1]}</p>
+                            <p><span className='text-primary'>Name:</span> {actress.name}</p>
+                            <p><span className='text-primary'>Year of birth:</span> {actress.birth_year}</p>
+                            <p><span className='text-primary'>Nationality:</span> {actress.nationality}</p>
+                            <p><span className='text-primary'>Biography:</span> {actress.biography}</p>
+                            <p><span className='text-primary'>Awards:</span> {actress.awards[0]} {actress.awards[1]}</p>
                         </div>
                     </div>
                 </div>

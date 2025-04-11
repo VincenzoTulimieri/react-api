@@ -38,6 +38,7 @@ export default function Main() {
                 <div className="row">
                     <Actor actor={actors} />
                 </div>
+                <hr />
                 <h2 className='mb-3'>Actresses List</h2>
                 <div className="row">
                     <Actresses actresses={actresses} />
