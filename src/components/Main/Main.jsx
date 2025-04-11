@@ -11,7 +11,7 @@ const actressesList = 'https://www.freetestapi.com/api/v1/actresses'
 
 export default function Main() {
     const [actors, setActor] = useState([])
-    const [actresses, setActoresses]= useState([])
+    const [actresses, setActoresses] = useState([])
 
     function loadActorsList() {
         axios.get(actorsList)
@@ -40,7 +40,7 @@ export default function Main() {
                 </div>
                 <h2 className='mb-3'>Actresses List</h2>
                 <div className="row">
-                    <Actresses actresses={actresses} /> 
+                    <Actresses actresses={actresses} />
                 </div>
             </div>
         </main>

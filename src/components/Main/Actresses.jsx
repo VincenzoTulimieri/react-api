@@ -1,10 +1,10 @@
-export default function Actresses(props){
-    const actresses= props.actresses
-    return(
+export default function Actresses(props) {
+    const actresses = props.actresses
+    return (
         actresses.map(actress => (
-            <div className="col mb-2" key={actress.id}> 
+            <div className="col mb-2" key={actress.id}>
                 <div className="card vt-width" >
-                    <img src={actress.image} className="card-img-top" alt={actress.name}/>
+                    <img src={actress.image} className="card-img-top" alt={actress.name} />
                     <div className="card-body">
                         <div className="card-text">
                             <p><span className='text-primary'>Nome:</span> {actress.name}</p>
